@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="Name" placeholder="Insira o seu nome" minlength="3" required>
+        <br>
+        <label for="nome">Email:</label>
+        <input type="email" name="email" placeholder="Insira o seu email" required >
+        <br>
+        <label for="nome">Idade:</label>
+        <input type="numbre" name="Age" required>
+        <br>
+        <label for="nome">Data:</label>
+        <input type="date" name="Insira a sua data de nascimento">
+        <br>       
+        <label for="nome">Nacionaldiade:</label>
+        <select name="nacionalidade" id="nacionalidade">
+            <option value="portugal">Portugal</option>
+            <option value="espanha">Espanha</option>
+            <option value="franca">Franca</option>
+            <option value="italia">Italia</option>
+        </select>
+        <br>
+        <label for="nome">Palavra-Passe:</label>
+        <input type="password" name="Password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <br>
+        <input type="submit" value="Submeter formulário">
+    </form>
+</body>
+</html>

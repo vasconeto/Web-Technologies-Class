@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Fonte padrão */
+            margin: 0; /* Remove margens padrão */
+        }
+
+        /* Estilos da barra de navegação */
+        .navbar {
+            background-color: #333; /* Cor de fundo */
+            overflow: hidden; /* Remove o overflow */
+        }
+
+        /* Estilos dos links */
+        .navbar a {
+            float: left; /* Alinha os links à esquerda */
+            display: block; /* Exibe como bloco */
+            color: white; /* Cor do texto */
+            text-align: center; /* Alinha o texto no centro */
+            padding: 14px 20px; /* Espaçamento interno */
+            text-decoration: none; /* Remove o sublinhado */
+        }
+
+        /* Estilos para links ao passar o mouse */
+        .navbar a:hover {
+            background-color: #ddd; /* Cor de fundo ao passar o mouse */
+            color: black; /* Cor do texto ao passar o mouse */
+        }
+
+        /* Estilo ativo */
+        .navbar a.active {
+            background-color: #767776ee; /* Cor de fundo do link ativo */
+            color: white; /* Cor do texto ativo */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="inicial.html">Início</a>
+        <a href="positano.html">Positano</a>
+        <a href="capri.html">Capri</a>
+        <a href="sorrento.html">Sorrento</a>
+        <a href="amalfi.html">Amalfi</a>
+        <a href="ravello.html">Ravello</a>
+        <a href="contactos.html" class="active">Contactos</a>
+    </div>
+    <br>
+    <header>Contact us for more information</header>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="Name" placeholder="Insira o seu nome e sobrenome" required>
+        <br>
+        <label for="nome">Email:</label>
+        <input type="email" name="email" placeholder="Insira o seu email" required >
+        <br>
+        <textarea name="assunto" rows="10" placeholder="Insira o assunto" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <footer>Vasco Neto 40240252</footer>
+</body>
+</html>
